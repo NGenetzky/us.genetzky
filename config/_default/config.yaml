@@ -43,7 +43,9 @@ permalinks:
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  # Error: from config: failed to resolve output format "WebAppManifest" from site config
+  # home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, JSON, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
