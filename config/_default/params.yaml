@@ -16,10 +16,10 @@ appearance:
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    local_business_type: 'family'
+    org_name: 'Genetzky'
+    description: 'Genetzky in the US'
+    twitter: 'ngenetzky'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© 1028 - {year} Nathan Genetzky. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -53,7 +53,7 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: '2016-01-02'
   time_format: '3:04 PM'
   address_format: en-us
 
@@ -69,8 +69,8 @@ features:
     enable: false
   privacy_pack:
     enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
+  repository: # TODO
+    url: 'https://github.com/ngenetzky/us.genetzky'
     content_dir: content
     branch: main
   avatar:
@@ -106,11 +106,12 @@ extensions:
   cms:
     branch: main
     local_backend: false
+    publish_mode: editorial_workflow
   academicons:
     enable: true
 
 # Citation style
 
 publications:
-  date_format: January 2006
+  date_format: 2006-01
   citation_style: apa

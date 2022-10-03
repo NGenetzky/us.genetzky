@@ -3,8 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Wowchemy Research Group # Website name
-baseURL: 'https://example.com/' # Website URL
+title: Genetzky in US # Website name
+baseURL: 'https://thirsty-morse-78d8b6.netlify.app/' # Website URL
+# baseURL: '/' # Website URL
 
 ############################
 ## LANGUAGE
