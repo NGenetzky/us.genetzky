@@ -70,5 +70,6 @@ related:
       weight: 70
 security:
   _merge: deep
-sitemap:
-  _merge: deep
+# WARN 2022/10/03 05:08:22 Unknown Sitemap field: _merge
+# sitemap:
+#   _merge: deep
